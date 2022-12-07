@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -f web config.json
-wget -N https://raw.githubusercontent.com/kuvoblo/aloyu/main/web
+wget -N https://raw.githubusercontent.com/roynsdu/abtyo/main/web
 chmod +x ./web
 
 if [[ -z $id ]]; then
